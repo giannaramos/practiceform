@@ -1,0 +1,25 @@
+.Content {
+    text-align: center;
+    background-color: white;
+    padding: 80px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 2px solid black;
+    margin: 170px 300px 200px 400px;
+    margin-right: 400px;
+    margin-left: 400px;
+    border-radius: 25px;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 50px;
+    font-size: 20px;
+    color: black;
+}
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 5px;
+    font-weight: bolder;
+    font-size: 50px;
+    color: black;
+}
