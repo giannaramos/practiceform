@@ -1,0 +1,178 @@
+html, body, h1, h2, h3, p, ol, ul, li, a {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+#nav {
+    border-bottom: solid 2px white;
+    padding: 35px;
+    margin-right: 40px;
+    margin-left: 40px;
+    position: relative;
+}
+#nav h1 {
+    justify-content: flex-start;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 2px;
+    left: 5px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-weight: 200;
+    word-spacing: 10px;
+}
+.navlinks {
+    position: absolute;
+    bottom: 2px;
+    right: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    word-spacing: 10px;
+    padding: 0px 10px;
+    word-wrap: normal;
+    display: inline-block;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-weight: 200;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+#mainimage {
+    background-image: url(Images/firstimage.jpg);
+    background-repeat: no-repeat;
+    background-size: stretch;
+    background-color: rgba(112, 100, 100, 0.39);
+    background-blend-mode: darken;
+    height: 850px;
+    background-position: top;
+    flex-wrap: nowrap;
+}
+#main-content {
+    flex-wrap: nowrap;
+    padding: 200px 100px 650px 100px;
+}
+#main-content h1 {
+    flex-wrap: nowrap;
+    font-size: 140px;
+    letter-spacing: 1px;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-weight: 200;
+    border-bottom: solid 2px white;
+    text-align: center;
+    margin-right: 290px;
+    margin-left:290px;
+}
+#main-content p {
+    flex-wrap: nowrap;
+    font-size: 50px;
+    letter-spacing: 1px;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-weight: 200;
+    word-spacing: 10px;
+    text-align: center;
+}
+html,body {
+    height: 100%;
+}
+ul#flex-container1, ul#flex-container2, ul#flex-container3 {
+    list-style-type:none;
+    margin:0;padding:0;
+    display:flex;
+    flex-wrap: wrap;
+}
+ul li {
+    flex-grow:1;
+    height:450px;
+    padding-top:10px;
+    color: #fff;
+    font-weight:0;
+    font-size: 0;
+    text-align:left;
+    width: 100px;
+}
+#flex-container1 li:first-child {
+    background-color: rgb(20, 19, 19);
+    height: 450px;
+    background-image: url(bread.jpg);
+    background-repeat: no-repeat;
+    background-size: stretch;
+    background-position: bottom;
+    padding-top: 0px;
+    max-height: 100%;
+    object-fit: fill;
+}
+#flex-container1 li:last-child {
+    background-color: black;
+    flex-grow: 1.50;
+    height: 450px;
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 0px;
+}
+#flex-container2 li:first-child {
+    background-color: rgb(20, 19, 19);
+    flex-grow: 1.50;
+    height: 600px;
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+#flex-container2 li:last-child {
+    background-color: plum;
+    height: 600px;
+    background-image: url(images/pineapple.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#flex-container3 li:first-child {
+    background-color: royalblue;
+    height: 450px;
+    background-image: url(images/pasta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#flex-container3 li:last-child {
+    background-color: rgb(37, 35, 35);
+    flex-grow: 1.5;
+    height: 450;
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+#flex-container1 h1 {
+    margin:70px;
+    font-size: 40px;
+}
+#flex-container2 h1 {
+    margin: 30px;
+    font-size: 40px;
+    margin-top: 40px;
+}
+#flex-container3 h1 {
+    margin: 65px;
+    font-size: 40px;
+}
+#flex-container1 p {
+    font-size: 30px;
+    font-weight: lighter;
+}
+#flex-container2 p {
+    font-size: 30px;
+    font-weight: lighter;
+}
+#flex-container3 p {
+    font-size: 30px;
+    font-weight: lighter;
+}
